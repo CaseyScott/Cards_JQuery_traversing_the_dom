@@ -1,6 +1,7 @@
 body{
 	font-family: 'Roboto', sans-serif;
  	background-color: #eee;
+ 	
 }
 
 h1{
@@ -13,6 +14,7 @@ h2{
 }
 p{
 	font-size: .9rem;
+	cursor: pointer
 }
 
 div{
