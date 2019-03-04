@@ -24,4 +24,13 @@ $(document).ready(function() {
 	$("button").click(function(){
 		$(this).prev().slideToggle('slow');
 	});
+	
+	$(".card_image").click(function() {
+	    $(this).next().children("p").slideDown("slow");
+	})
+	
+	$(".card").click(function() {
+	    $(this).toggleClass("cardClickHighlight");
+	    
+	});
 });

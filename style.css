@@ -14,14 +14,15 @@ h2{
 }
 p{
 	font-size: .9rem;
-	cursor: pointer
+	cursor: pointer;
+	display: none;
 }
 
 div{
 	border-radius: 4px;
 }
 
-.card_image{
+.card_image {
 	width: 100%;
 }
 
@@ -94,6 +95,7 @@ nav{
 	background-color: #eee;
 	margin: 30px auto;
 	width: 100%;
+	cursor: pointer;
 }
 
 ul{
@@ -136,6 +138,10 @@ li{
 
 .card-highlight{
 	background-color: rgb(235, 82, 85);
+}
+
+.cardClickHighlight {
+	background-color: pink;
 }
 
 /*for desktop navigation*/
