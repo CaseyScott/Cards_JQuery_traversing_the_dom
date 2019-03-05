@@ -25,12 +25,20 @@ $(document).ready(function() {
 		$(this).prev().slideToggle('slow');
 	});
 	
-	$(".card_image").click(function() {
+	$("images").click(function(){
 	    $(this).next().children("p").slideDown("slow");
-	})
+	});
 	
-	$(".card").click(function() {
+	$(".card").click(function(){
 	    $(this).toggleClass("cardClickHighlight");
 	    
+	});
+	
+	$("#select_btn").click(function(){
+		$(".card:not(.cardClickHighlight)").hide();
+	});
+	
+	$("#all_btn").click(function(){
+		$(".card").show();
 	});
 });
